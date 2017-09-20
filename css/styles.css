@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, serif;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+	color: #ffffff;
+}
+
+ h1 {
+	font-size: 60px;
+	text-shadow: 0 0 4px #ffffff;
+	margin: 0px;
+ }
+ 
+
+
+/* header */
+
+header {
+	width: 1499px;
+	background-color: #1c1c1c;
+	margin: auto;
+}
+
+.header_content {
+	max-width: 950px;
+	height: 188px;
+	margin: auto;
+}
+
+.header_content .left {
+	float: left;
+}
+
+.header_content h1 {
+	margin: 86px 0 0 0;
+	font-family: Cambo, arial, serif;
+}
+
+.header_content h4 {
+	color: #828282;
+	font-size: 16px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+.search_form {
+	float: right;
+	margin-top: 53px;
+}
+
+input[type="submit"] {
+	width: 39px;
+	height: 30px;
+	background-color: #3e3e3e;
+	border: none;
+	border-radius: 12px;
+	color: #ffffff;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+input[type="search"] {
+	height: 30px;
+	border: 1px solid #2c2c2c;
+	color: #6b6b6b;
+	font-size: 13px;
+	background-color: #1c1c1c;
+	padding-left: 10px;
+	
+}
+
+/* content */
+
+#main_content {
+	background-color: #cdcdcd;
+	background-image: url("../img/content_background.png");
+	background-position:top;
+	background-repeat: no-repeat;
+	border-bottom: 6px solid #d8d8d8;
+	max-width: 1499px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.banner {
+	max-width: 950px;
+	margin: auto;
+	padding: 245px 0 110px 315px;
+	font-family: Cambo, arial, serif;
+}
+
+
+.banner h1{
+	background-color: rgba(0, 0, 0, 0.83);
+	width: 530px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.banner h2 {
+	left: 35px;
+	position: relative;
+	background-color: rgba(4, 32, 62, 0.83);
+	width: 370px;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 40px;
+	margin: 0px;
+}
+
+.boxes {
+	max-width: 950px;
+	height: 332px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.radius-left {
+	border-radius: 25px 0px;
+}
+
+.radius-right {
+	border-radius: 0px 25px;
+}
+
+.box {
+	height: 331px;
+	width: 235px;
+	padding: 47px 27px 29px 27px;
+	float: left;
+	margin-right: 3px;
+	background: linear-gradient(to bottom, rgba(246,246,246,100), rgba(233,233,233,100));
+	text-align: center;
+	-webkit-box-reflect: below 10px -webkit-linear-gradient(bottom, rgba(246,246,246, 0.3) 0%, transparent 5%);
+}
+
+.box h1 {
+	font-size: 70px;
+	color: #000000;
+	text-shadow: none;
+	font-family: Tahoma, arial, serif;
+}
+
+.box h3 {
+	font-size: 30px;
+	color: #000000;
+	text-shadow: none;
+	margin: 12px 0;
+	font-family: Yellowtail, arial, serif;
+}
+
+.box p {
+	font-size: 14px;
+	color: #727272; 
+	margin-bottom: 15px;
+}
+
+.box p span {
+	color: #2fb2eb;
+}
+
+.box button {
+	width: 105px;
+	height: 35px;
+	font-size: 20px;
+	border-radius: 25px;
+	background: linear-gradient(to bottom, rgba(86,150,186,100), rgba(40,104,140,100));
+	border: none;
+	color: #ffffff;
+	text-shadow: 0 0 1px #ffffff;
+	font-family: Cambo, arial, serif;
+}
+
+.box:hover {
+	background: linear-gradient(to bottom, rgba(56,56,56,100), rgba(31,31,31,100));
+}
+
+.box:hover h1, .box:hover h3  {
+	background: none;
+	color: #ffffff;
+}
+
+.box:hover p span {
+	color: #529ec3;
+}
+
+.box:hover button {
+	background: linear-gradient(to bottom, rgba(245,245,245,100), rgba(197,197,197,100));
+	border: none;
+	color: #323232;
+	text-shadow: 0 0 1px #323232;
+	cursor: pointer;
+}
+
+.no_margin {
+	margin: 0px;
+}
+
+.grey_box {
+	max-width: 950px;
+	height: 145px;
+	margin: auto;
+	background: linear-gradient(to bottom, rgba(184,184,184,100), rgba(166,166,166,100));
+	border-radius: 25px;
+	color: #ffffff;
+	text-shadow: 0 0 2px #000000;
+	text-align: left;
+	font-size: 22px;
+	padding: 25px 35px 0 305px;
+	margin-bottom: 45px;
+	font-family: 'Open sans', arial, serif;
+}
+
+.icons {
+	max-width: 950px;
+	margin: auto;
+}
+
+.icons button {
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin-right: 12px;
+	cursor: pointer;
+	background: none;
+}
+
+.icons .google {
+	background-image: url("../img/google.png");
+}
+
+.icons .flickr {
+	background-image: url("../img/flickr.png");
+}
+
+.icons .skype {
+	background-image: url("../img/skype.png");
+}
+
+.icons .twitter {
+	background-image: url("../img/twitter.png");
+}
+
+.icons .istock {
+	background-image: url("../img/istock.png");
+	margin-right: 0px;
+}
+
+footer {
+	max-width: 1499px;
+	height: 185px;
+	margin: auto;
+	background: linear-gradient(to bottom, rgba(40,40,40,100), rgba(37,37,37,100));
+}
